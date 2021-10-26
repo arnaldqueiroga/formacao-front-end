@@ -1,5 +1,18 @@
 header {
     background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto ; /* Esse é o espaçamento externo, na primeira posição (cima e baixo estou colocando 0), e nas laterais se ajusta automaticamente */
+}
+
+nav {
+    position: absolute; /* Está em absoluto em relação a classe caixa */
+    top: 110px;
+    right: 0%;
 }
 
 nav li{
